@@ -1,7 +1,8 @@
 # C-Socket-Programming
 One Time Pads: Client &amp; Server Socket connections that encrypt &amp; decrypt plain text messages
 
-The one-time pad (OTP) is an encryption technique that cannot be cracked, but requires the use of a single-use pre-shared key that is not smaller than the message being sent. In this technique, a plaintext is paired with a random secret key (also referred to as a one-time pad). Then, each bit or character of the plaintext is encrypted by combining it with the corresponding bit or character from the pad using modular addition. (Source: https://en.wikipedia.org/wiki/One-time_pad).
+The one-time pad (OTP) is an encryption technique that cannot be cracked, but requires the use of a single-use pre-shared key that is not smaller than the message being sent. In this technique, a plaintext is paired with a random secret key (also referred to as a one-time pad). Then, each bit or character of the plaintext is encrypted by combining it with the corresponding bit or character from the pad using modular addition. 
+(Source: https://en.wikipedia.org/wiki/One-time_pad).
 
 This set of programs encrypts and decrypts plaintext to and from ciphertext, using a key that generates strings of characters consisting of the 26 capital letters, and the space character. All 27 characters will be encrypted and decrypted using the technique of modular addition.
 
