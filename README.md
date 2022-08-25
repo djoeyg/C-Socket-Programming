@@ -28,9 +28,9 @@ Command line args:  (0) ./dec_server  (1) arbitrary port number
 Same functionality as `enc_client` except connects to `dec_server`, and asks it to perform a one-time pad style decryption. `dec_client` will not be able to connect to the encryption server, even if it tries to connect on the correct port.
 
 Must start `dec_server` before running this program.<br />
-Command line args:  (0) ./enc_client  (1) ciphertext file name  (2) key file name  (3) port number from the server
+Command line args:  (0) ./dec_client  (1) ciphertext file name  (2) key file name  (3) port number from the server
 
 ### `keygen`
 A stand-alone utility that creates a key file of specified length. The characters in the file generated will be any of the 27 allowed characters, generated using the standard Unix randomization methods.
 
-Command line args: 0 ./keygen  1 length of key (positive integer value)
+Command line args: (0) ./keygen  (1) length of key (positive integer value)
